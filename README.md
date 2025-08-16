@@ -33,11 +33,8 @@ Configured a **remote access VPN** on pfSense using IKEv2 with certificate authe
 - **Phase 1 (IKEv2):** EAP-MSCHAPv2 authentication, AES-256 encryption, SHA256 hashing  
 - **Phase 2 (IPsec):** Tunnel mode, ESP protocol, AES-256 encryption  
 
-![Phase 1 Configuration](screenshots/hostvpn-phase1.png)  
-*Phase 1 settings with EAP-MSCHAPv2 and AES-256*  
-
-![Phase 2 Configuration](screenshots/hostvpn-phase2.png)  
-*Phase 2 tunnel configuration*
+![Phase 1 & 2 Configuration](screenshots/hostvpn-phase1.png)  
+*Phase 1 settings with EAP-MSCHAPv2 and AES-256 and Phase 2 settings with ESP protocol and AES-256*
 
 ---
 
