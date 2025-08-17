@@ -7,7 +7,7 @@ Configured a **remote access VPN** on pfSense using IKEv2 with certificate authe
 
 ## Implementation Steps & Screenshots
 
-#### 1. Certificate Authority and Server Certificate Setup
+#### 1. Certificate Authority and Server Certificate Setup.
 - Created a CA named **`mobilevpnca`** on the pfSense firewall  
 - Generated server certificate **`Ikev2vpn`** for VPN authentication  
 
@@ -19,7 +19,7 @@ Configured a **remote access VPN** on pfSense using IKEv2 with certificate authe
 
 ---
 
-#### 2. IPSEC Mobile Client Configuration
+#### 2. IPSEC Mobile Client Configuration.
 - Enabled IPsec Mobile Client Support under `VPN > IPsec > Mobile Clients`  
 - Configured user authentication using the local database  
 - Created a virtual IP address pool: `10.99.237.0/24`  
@@ -29,7 +29,7 @@ Configured a **remote access VPN** on pfSense using IKEv2 with certificate authe
 
 ---
 
-#### 3. IPsec Phase 1 and Phase 2 Configuration
+#### 3. IPsec Phase 1 and Phase 2 Configuration.
 - **Phase 1 (IKEv2):** EAP-MSCHAPv2 authentication, AES-256 encryption, SHA256 hashing  
 - **Phase 2 (IPsec):** Tunnel mode, ESP protocol, AES-256 encryption  
 
@@ -38,7 +38,7 @@ Configured a **remote access VPN** on pfSense using IKEv2 with certificate authe
 
 ---
 
-#### 4. User Account Setup
+#### 4. User Account Setup.
 - Created user **`Emmanuel`** with EAP authentication  
 
 ![User Account](screenshots/hostvpn-user-account.png)  
