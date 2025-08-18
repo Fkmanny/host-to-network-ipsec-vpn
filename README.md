@@ -54,7 +54,7 @@ Configured a **remote access VPN** on pfSense using IKEv2 with certificate authe
 
 ---
 
-#### 6. Windows 10 Client Setup
+#### 6. Windows 10 VM Client Setup
 - Imported CA certificate on the Windows 10 client  
 - Created VPN connection via PowerShell using IKEv2 + EAP authentication  
 - Added a route for LAN subnet (`172.16.237.0/24`)  
